@@ -2,12 +2,14 @@
 
 A Flask-based application that processes handwritten prescription images using Tesseract OCR, matches extracted medicines against an in-memory inventory, and generates an order for the patient.
 
-# Features
-✅ Upload handwritten prescription images
-✅ Extract text using Tesseract OCR
-✅ Match medicines with inventory
-✅ Generate an order for the patient
-✅ Display unmatched medicines
+**🔍 What Prescriptify Does:**
+
+✅ Scans handwritten prescriptions using OCR (Tesseract)
+✅ Extracts and cleans text for accuracy
+✅ Generates structured medicine orders for patients
+✅ Reduces manual effort for pharmacists and hospitals
+✅ Provides a user-friendly web interface for easy access
+
 
 # Installation & Setup
 **Prerequisites**
@@ -48,14 +50,6 @@ brew install tesseract
 **Run the Flask App**
 python app.py
 The app will start on http://127.0.0.1:5000/
-
-**🔍 What Prescriptify Does:**
-
-✅ Scans handwritten prescriptions using OCR (Tesseract)
-✅ Extracts and cleans text for accuracy
-✅ Generates structured medicine orders for patients
-✅ Reduces manual effort for pharmacists and hospitals
-✅ Provides a user-friendly web interface for easy access
 
 # Usage
 1. Open the web app in your browser.
