@@ -49,6 +49,13 @@ brew install tesseract
 python app.py
 The app will start on http://127.0.0.1:5000/
 
+🔍 What Prescriptify Does:
+✅ Scans handwritten prescriptions using OCR (Tesseract)
+✅ Extracts and cleans text for accuracy
+✅ Generates structured medicine orders for patients
+✅ Reduces manual effort for pharmacists and hospitals
+✅ Provides a user-friendly web interface for easy access
+
 # Usage
 1. Open the web app in your browser.
 2. Enter the patient's name.
@@ -57,7 +64,6 @@ The app will start on http://127.0.0.1:5000/
 5. View the extracted medicines, matched orders, and any unmatched items.
 
 # Project Structure
-/prescrify
  ├── /uploads              # Stores uploaded images (temporary)
  ├── app.py                # Main Flask application
  ├── templates/            # HTML templates for frontend
